@@ -1,0 +1,5 @@
+n=input("Enter the words seperated by comma")
+list=n.split(",")
+tuple=tuple(list)
+print("List is",list)
+print("Tuple is",tuple)
