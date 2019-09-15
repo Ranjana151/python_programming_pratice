@@ -1,0 +1,6 @@
+n=int(input("Enter the integer"))
+n1=int("%s" % n)
+n2=int("%s%s" % (n,n))
+n3=int("%s%s%s" % (n,n,n))
+print("Series is",n1," ",n2," ",n3)
+print("Sum is",(n1+n2+n3))
