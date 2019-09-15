@@ -1,0 +1,5 @@
+color_1=input("Enter the colors names")
+color_2=input("Enter the colors names")
+color_set1=set(color_1.split(","))
+color_set2=set(color_2.split(","))
+print("Colors in color_1 list not in color_2 list are",color_set1.difference(color_set2))
